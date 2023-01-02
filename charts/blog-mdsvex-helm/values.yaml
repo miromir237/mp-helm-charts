@@ -38,8 +38,8 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  externamPort: 80
-  internamePort: 3000
+  externalPort: 80
+  internalPort: 3000
   name: http
 
 ingress:
