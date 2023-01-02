@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   blog-mdsvex-helm:
   - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2023-01-02T21:12:26.031882306+01:00"
+    description: A Helm chart for blog-mdsvex deployment into Kubernetes
+    digest: 45e62b34c8bfd06e17e59da25c4a9352e905a417672de41d35766b4d042732a1
+    maintainers:
+    - email: miroslav.pilat@gmail.com
+      name: Miroslav Pilat
+    name: blog-mdsvex-helm
+    type: application
+    urls:
+    - https://miromir237.github.io/mp-helm-charts/blog-mdsvex-helm-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     appVersion: 0.0.3
-    created: "2023-01-02T21:05:12.928942669+01:00"
+    created: "2023-01-02T21:12:26.031057487+01:00"
     description: A Helm chart for blog-mdsvex deployment into Kubernetes
     digest: 8a361b3ce51eb0375f0a0623b5db5cf41f7c514ccabe84738d2def937a98957f
     maintainers:
@@ -16,7 +29,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2023-01-02T21:05:12.928033559+01:00"
+    created: "2023-01-02T21:12:26.030180888+01:00"
     description: A Helm chart for blog-mdsvex deployment into Kubernetes
     digest: d32f5e8a62a5881f1963f27efe5cce1da10b4d7f8cec45daef1f11d802b6c50c
     maintainers:
@@ -29,7 +42,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-01-02T21:05:12.927170619+01:00"
+    created: "2023-01-02T21:12:26.029314617+01:00"
     description: A Helm chart for blog-mdsvex deployment into Kubernetes
     digest: 7d100a2c3604206c91ce1e1d08117a7af970bf46588314970e6e39c7528e2203
     maintainers:
@@ -40,4 +53,4 @@ entries:
     urls:
     - https://miromir237.github.io/mp-helm-charts/blog-mdsvex-helm-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-02T21:05:12.925937287+01:00"
+generated: "2023-01-02T21:12:26.028179353+01:00"
