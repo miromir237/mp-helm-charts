@@ -38,7 +38,9 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 80
+  externamPort: 80
+  internamePort: 3000
+  name: http
 
 ingress:
   enabled: true
